@@ -1,0 +1,81 @@
+.medialink img{
+	float:left;
+	margin: 5px 5px 5px 5px;
+}
+
+.medialink-pages {
+	width: 100%;
+	text-align: center;
+	margin: 0 0 25px;
+}
+
+.medialink.bottom .medialink-pages {
+	margin-top: 25px;
+}
+
+.medialink.top .medialink-pages.one-page {
+	display: none;
+}
+
+.medialink.bottom .medialink-pages.one-page {
+	margin: 15px 0 0 0;
+	height: 0;
+}
+
+.medialink-pages .medialink-links .paging-input {
+	font-size: 18px;
+}
+
+.medialink-pages .medialink-links a {
+	padding: 8px 20px 11px;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.medialink-pages .medialink-links .current-page {
+	padding: 10px;
+	font-size: 14px;
+}
+
+.medialink-list{
+	font-size: 1.3em;
+	margin:20px 0;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+}
+
+.medialink-list ul li{
+	display:table;
+	width:100%;
+}
+.medialink-list ul li a{
+	display:block;
+	padding:7px 25px 7px 7px;
+	position:relative;
+	text-decoration:none;
+	font-weight: bolder;
+}
+
+.medialink-list ul li a:after{
+	content: "";
+    display: block;
+	height: 0px;
+	width: 0px;
+	position:absolute;
+	top:50%;
+	right:10px;
+}
+
+.medialink-list ul li img{
+	float:left;
+	overflow: hidden;
+}
+
+.medialink-list ul li div{
+	display:table-cell;
+	vertical-align:middle;
+}
+

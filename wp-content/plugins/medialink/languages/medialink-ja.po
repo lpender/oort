@@ -1,0 +1,234 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MediaLink\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Katsushi Kawamori <dodesyoswift312@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"Language: ja\n"
+
+msgid "MediaLink outputs as a gallery from the media library(image and music and video and document)."
+msgstr "メディアライブラリ（画像や音楽やビデオや文書）からギャラリーとして出力します。"
+
+msgid "first page"
+msgstr "最初のページ"
+
+msgid "previous page"
+msgstr "前のページ"
+
+msgid "next page"
+msgstr "次のページ"
+
+msgid "last page"
+msgstr "最後のページ"
+
+msgid "New"
+msgstr "新着順"
+
+msgid "Old"
+msgstr "古い順"
+
+msgid "Des"
+msgstr "降順"
+
+msgid "Asc"
+msgstr "昇順"
+
+msgid "Search"
+msgstr "検索"
+
+msgid "all"
+msgstr "全てのファイル"
+
+msgid "Select"
+msgstr "選択"
+
+msgid "How to use"
+msgstr "使い方"
+
+msgid "Default all settings"
+msgstr "すべての設定をデフォルト"
+
+msgid "(In the case of image) Easy use"
+msgstr "簡単な使い方（画像の場合）"
+
+msgid "Please add new Page. Please write a short code in the text field of the Page. Please go in Text mode this task."
+msgstr "固定ページを新規に追加します。本文欄に以下のショートコードを書きます。この作業はテキストモードで行ってください。"
+
+msgid "When you view this Page, it is displayed in album mode. This is the result of the search of the media library. The Settings> Media, determine the size of the thumbnail. The default value of MediaLink, width 80, height 80. Please set its value. In the Media> Add New, please drag and drop the image. You view the Page again. Should see the image to the Page."
+msgstr "この固定ページを更新し表示すると、アルバムモードで表示されます。これは、メディアライブラリを検索した結果です"
+
+msgid "MediaLink is also handles video and music and document. If you are dealing with music and video and document, please add the following attributes to the short code."
+msgstr "MediaLinkは、動画や音楽や文書が扱えます。動画や音楽や文書を扱う場合は、ショートコードに以下の属性を付加してください。"
+
+msgid "Video set = 'movie'"
+msgstr "動画 set= 'movie'"
+
+msgid "Music set = 'music'"
+msgstr "音楽 set= 'music'"
+
+msgid "Document set = 'document'"
+msgstr "文書 set= 'document'"
+
+msgid "If you want to display in a mix of data, please specify the following attributes to the short code."
+msgstr "混合データで表示したい場合は、ショートコードに以下の属性を指定してください。"
+
+msgid "Mix of data set = 'all'"
+msgstr "混合データ set = 'all'"
+
+msgid "* (WordPress > Settings > General Timezone) Please specify your area other than UTC. For accurate time display of RSS feed."
+msgstr "※（ワードプレス > 設定 > 一般 タイムゾーン）でUTC以外のお住まいの地域を指定してください。 RSSフィードの正確な時刻表示のためです。"
+
+msgid "Below, I shows the default values and various attributes of the short code."
+msgstr "以下に、ショートコードの各種属性とデフォルト値を示します。"
+
+msgid "Attribute"
+msgstr "属性"
+
+msgid "Next only six. all(all data), album(image), movie(video), music(music), slideshow(image), document(document)"
+msgstr "all（混合データ）,album（画像）,movie（動画）,music（音楽）,slideshow（画像）,document（文書）の６つのみ"
+
+msgid "extension"
+msgstr "拡張子"
+
+msgid "second extension. Second candidate when working with html5"
+msgstr "第２拡張子。動画や音楽をhtml5で扱う場合の第２候補。"
+
+msgid "File Display per page"
+msgstr "１ページの表示数"
+
+msgid "(album, slideshow) thumbnail suffix name. (movie, music, document) The icon is displayed if you specify icon. The thumbnail no display if you do not specify anything."
+msgstr "album,slideshowはサムネイル接尾名。movie,music,documentは、iconと指定した場合にアイコンを表示し、何も指定しなければサムネイル表示をしません。"
+
+msgid "The name of the RSS feed file (Use to widget)"
+msgstr "RSSフィードファイルの名前(ウィジェットに使用します)"
+
+msgid "Syndication feeds show the most recent (Use to widget)"
+msgstr "RSSフィードの表示数(ウィジェットに使用します)"
+
+msgid "Size and color."
+msgstr "サイズや色"
+
+msgid "Size of the thumbnail size for Video and Music"
+msgstr "動画と音楽のサムネイルサイズ"
+
+msgid "Background color"
+msgstr "背景色"
+
+msgid "Text color"
+msgstr "文字色"
+
+msgid "The to playback of video and music, that such as the next, .htaccess may be required to the directory containing the data file by the environment."
+msgstr "動画や音楽の再生では、環境によってデータファイルのあるディレクトリに以下の様な、.htaccess が必要になります。"
+
+msgid "All data (Podcast)"
+msgstr "混合データ (Podcast)"
+
+msgid "Album (RSS)"
+msgstr "アルバム (RSS)"
+
+msgid "Video (Podcast)"
+msgstr "動画 (Podcast)"
+
+msgid "Music (Podcast)"
+msgstr "音楽 (Podcast)"
+
+msgid "Slideshow (RSS)"
+msgstr "スライドショー (RSS)"
+
+msgid "Document (RSS)"
+msgstr "文書 (RSS)"
+
+msgid "* When you move to (WordPress > Appearance > Widgets), there is a widget MediaLinkRssFeed. If you place you can set this to display the sidebar link the RSS feed."
+msgstr "※（ワードプレス > 外観 ＞ ウィジェット）に移動すると、ウィジェットMediaLinkRssFeedがあります。これを設定して配置すると、RSSフィードのリンクをサイドバーに表示します。"
+
+msgid "Alias read extension : "
+msgstr "読み込み拡張子のエイリアス : "
+
+msgid "Selectbox of archives."
+msgstr "アーカイブのセレクトボックス"
+
+msgid "Navigation of page."
+msgstr "ページネーション"
+
+msgid "Navigation of sort."
+msgstr "ソートのナビゲーション"
+
+msgid "Search box"
+msgstr "検索ボックス"
+
+msgid "RSS Icon"
+msgstr "RSS アイコン"
+
+msgid "Credit"
+msgstr "クレジット"
+
+msgid "Size of the image display. (Media Settings > Image Size)"
+msgstr "画像表示のサイズ。（メディア設定 > 画像サイズ）"
+
+msgid "Could not create an RSS Feed. Please change to 777 or 757 to permissions of following directory."
+msgstr "RSSフィードを作成できませんでした。以下のディレクトリのパーミッションを777または757に変更してください。"
+
+msgid "Generation of RSS feed."
+msgstr "RSSフィードの生成"
+
+msgid "Type of Sort"
+msgstr "ソートの種類"
+
+msgid "Generate html"
+msgstr "htmlの生成"
+
+msgid "File size"
+msgstr "ファイルサイズ"
+
+msgid "Date Time"
+msgstr "日付時刻"
+
+msgid "AllData"
+msgstr "混在データ"
+
+msgid "Album"
+msgstr "アルバム"
+
+msgid "Video"
+msgstr "動画"
+
+msgid "Music"
+msgstr "音楽"
+
+msgid "Slideshow"
+msgstr "スライドショー"
+
+msgid "Document"
+msgstr "文書"
+
+msgid "Audio's suffix and Video's suffix is following to the setting(set='music',set='movie'). Other than that, read all the data."
+msgstr "音楽とビデオの拡張子は、それぞれの設定(set='music',set='movie')に従います。それ以外は、全てのデータを読み込みます。"
+
+msgid "Effect of Images"
+msgstr "画像のエフェクト"
+
+msgid "It is possible to work with the following plugins. Please install."
+msgstr "以下のプラグインと連携します。インストールしてください。"
+
+msgid "In addition, offer the following filters. This filter passes the html that is generated."
+msgstr "また、次のフィルタを提供します。このフィルタは、生成されるHTMLを渡します。"
+
+msgid "Please make a donation if you like my work or would like to further the development of this plugin."
+msgstr "私はプラグインの開発とサポートを継続させるために寄付を必要としています。"
+
+msgid "Exclude extension."
+msgstr "除外する拡張子。"
+
+msgid "Regular expression is possible."
+msgstr "正規表現が可能です。"
+
+msgid "Entries of RSS feed from MediaLink."
+msgstr "MediaLinkによるRSSフィードのエントリー"
+
+msgid "Reviews"
+msgstr "レビュー"
